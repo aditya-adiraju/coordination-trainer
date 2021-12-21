@@ -10,12 +10,11 @@ bg = pygame.image.load('bg.jpg')
 score_overlay = pygame.image.load('ScoreOverlay.png')
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 clock = pygame.time.Clock()
-font = pygame.font.Font("Roboto-Regular.ttf", 58)
+font = pygame.font.Font("Retro Gaming.ttf", 58)
 
 if __name__ == '__main__':
     done = False
     frames = 0    # keeps track of how many frames have passed
-    text = pick_random_finger()  # text for the test is selected
     i = 0  # index of words
     freeze = False  # used to see if the timer must be frozen
     color = (0, 0, 0)
